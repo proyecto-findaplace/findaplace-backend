@@ -1,0 +1,79 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Nombre de mi Evento",
+      "description": "Ipsum enim et culpa quis elit esse ad magna in ex.",
+      "event_category": [
+        1,
+        2,
+        3
+      ],
+      "place": 1,
+      "start_date": "2018-11-12T20:51:30-05:00",
+      "end_date": "2018-11-12T23:51:30-05:00",
+      "public": true,
+      "reservation": 1,
+      "invitations": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+        "id": 2,
+      "name": "Noche de Día de Muertos",
+      "description": "Eu quis enim esse do ea nostrud qui duis eiusmod eu. Quis tempor labore fugiat exercitation quis ipsum sint anim tempor laborum magna eu sint irure. Consequat est duis sunt eiusmod tempor. Commodo sit dolore id id tempor consectetur sunt. Consequat occaecat fugiat quis anim laborum consequat eiusmod proident aute aliquip. Elit exercitation labore duis non laboris laborum anim do ad ad. Dolore irure eu ex amet dolor ullamco ipsum ex elit ut sit consectetur.",
+      "event_category": [
+        2
+      ],
+      "place": 2,
+      "start_date": "2018-11-01T20:51:30-05:00",
+      "end_date": "2018-11-02T23:51:30-05:00",
+      "public": true
+    }
+  ],
+
+  "places": [
+      {
+          "id": 1,
+        "name": "Uta Bar",
+        "image": "https://media.timeout.com/images/101491341/750/422/image.jpg",
+        "address": "Donceles 58, Centro Histórico, Centro, 06000 Ejido del Centro, CDMX",
+        "latitude": "19.4416809",
+        "longitude": "-99.1213809",
+        "products": [1,2,3],
+        "services": [11,12,13],
+        "event_categories": [1,2,3],
+        "open_hours": "?"
+      },
+      {
+        "id": 2,
+        "name": "Pata Negra",
+        "image": "http://www.defe.mx/_/rsrc/1386189169917/mexico-df/bares/pata-negra/Bar%20Pata%20Negra.jpg?height=213&width=320",
+        "address": "Tamaulipas 30, Col. Condesa,Delegación Cuauhtémoc.",
+        "latitude": "19.4133009",
+        "longitude": "-99.1743031",
+        "products": [1,2,3],
+        "services": [11,12,13],
+        "event_categories": [1,2,3],
+        "open_hours": "?"
+        
+      },
+      {
+        "id": 3,
+        "name": "Café La Chingada",
+        "image": "https://igx.4sqi.net/img/general/width960/24970432_YojzV9JokvjkLYpGKd7UBeGfxffna6VUc1XWgFmtqe0.jpg",
+        "address": "Av. Pantitlán (Villa Victoria) Ciudad Nezahualcóyotl, State of Mexico",
+        "latitude": "19.4056465",
+        "longitude": "-99.0394134",
+        "products": [1,2,3],
+        "services": [11,12,13],
+        "event_categories": [1,2,3],
+        "open_hours": "?"
+        
+      }
+  ]
+
+
+}
